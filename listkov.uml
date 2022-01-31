@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.company.listkov</OriginalElement>
+  <nodes>
+    <node x="495.0" y="-111.0">com.company.listkov.SocialVideoCallManager</node>
+    <node x="586.0" y="169.0">com.company.listkov.WhatsApp</node>
+    <node x="-187.0" y="169.0">com.company.listkov.Instagram</node>
+    <node x="-97.0" y="-111.0">com.company.listkov.PostMediaManager</node>
+    <node x="207.00000000000003" y="272.0">com.company.listkov.Facebook</node>
+    <node x="189.50000000000003" y="-111.0">com.company.listkov.SocialMedia</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.listkov.WhatsApp" target="com.company.listkov.SocialVideoCallManager" relationship="REALIZATION">
+      <point x="0.0" y="-48.5" />
+      <point x="701.5" y="110.0" />
+      <point x="616.0" y="110.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.company.listkov.Instagram" target="com.company.listkov.SocialMedia" relationship="REALIZATION">
+      <point x="0.0" y="-48.5" />
+      <point x="115.00000000000003" y="169.0" />
+      <point x="115.00000000000003" y="115.0" />
+      <point x="304.5" y="115.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="com.company.listkov.WhatsApp" target="com.company.listkov.SocialMedia" relationship="REALIZATION">
+      <point x="0.0" y="-48.5" />
+      <point x="701.5" y="95.0" />
+      <point x="304.5" y="95.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="com.company.listkov.Facebook" target="com.company.listkov.PostMediaManager" relationship="REALIZATION">
+      <point x="0.0" y="-59.5" />
+      <point x="322.5" y="105.0" />
+      <point x="5.0" y="105.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.company.listkov.Facebook" target="com.company.listkov.SocialVideoCallManager" relationship="REALIZATION">
+      <point x="0.0" y="-59.5" />
+      <point x="322.5" y="125.0" />
+      <point x="616.0" y="125.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.company.listkov.Instagram" target="com.company.listkov.PostMediaManager" relationship="REALIZATION">
+      <point x="0.0" y="-48.5" />
+      <point x="-72.0" y="110.0" />
+      <point x="5.0" y="110.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.company.listkov.Facebook" target="com.company.listkov.SocialMedia" relationship="REALIZATION">
+      <point x="0.0" y="-59.5" />
+      <point x="322.5" y="110.0" />
+      <point x="304.5" y="110.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="371.5" y="132.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
